@@ -7,6 +7,8 @@ node_modules/
 /.vscode
 *.code-workspace
 
+dist/
+
 # bundle
 packages/**/*.d.ts
 packages/**/*.js
