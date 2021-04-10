@@ -1,5 +1,5 @@
 export interface Host {
-    hostname: string;
-    forwardedHostname: string | undefined;
-    ip: string;
+	hostname: string;
+	forwardedHostname: string | undefined;
+	ip: string;
 }

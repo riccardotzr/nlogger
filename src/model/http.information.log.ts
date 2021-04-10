@@ -1,7 +1,7 @@
-import { Request, Response, Host } from "../model";
+import { Request, Response, Host } from '../model';
 
 export interface HttpInformationLog {
-    host: Host,
-    request: Request,
-    response?: Response
+	host: Host;
+	request: Request;
+	response?: Response;
 }
