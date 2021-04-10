@@ -1,0 +1,51 @@
+{
+  "name": "nlogger",
+  "version": "1.0.0",
+  "description": "A NestJs json logger based on Winston",
+  "keywords": [
+    "nestjs",
+    "winston",
+    "logger"
+  ],
+  "author": "Riccardo Atzori <atzoriccardo@gmail.com>",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "uuid": "8.3.1",
+    "winston": "^3.3.3"
+  },
+  "peerDependencies": {
+    "@nestjs/common": "^7.6.15",
+    "@nestjs/core": "^7.6.15"
+  },
+  "devDependencies": {
+    "@nestjs/common": "^7.6.15",
+    "@nestjs/core": "^7.6.15",
+    "@nestjs/platform-express": "^7.6.15",
+    "@nestjs/testing": "^7.6.15",
+    "@types/chai": "^4.2.16",
+    "@types/cli-color": "^2.0.0",
+    "@types/express": "4.11.1",
+    "@types/mocha": "^8.2.2",
+    "@types/uuid": "3.4.3",
+    "@typescript-eslint/eslint-plugin": "^4.20.0",
+    "@typescript-eslint/parser": "^4.20.0",
+    "chai": "^4.3.4",
+    "eslint": "^7.23.0",
+    "mocha": "^8.3.2",
+    "reflect-metadata": "^0.1.13",
+    "rimraf": "^3.0.2",
+    "rxjs": "^6.6.7",
+    "source-map-support": "^0.5.19",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
+  },
+  "homepage": "",
+  "repository": {
+    "type": "git",
+     "url": ""
+  }
+}
